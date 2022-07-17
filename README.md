@@ -5,4 +5,4 @@
 
 ## Mobile View
 
-<img src="./src/mobile.jpeg"/>
+<img src="./src/mobile.jpeg" width="50%"/>
