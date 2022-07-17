@@ -23,22 +23,22 @@ import CodeIcon from "../CodeIcon.svg";
 const Content = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <Box fontSize="6xl" textTransform="capitalize" fontWeight="bold"
-    
+    <Box fontSize={["3xl","4xl","5xl"]} textTransform="capitalize" fontWeight="bold"
+    mt="3rem"
     mb="3rem">
-      <Text>
+      <Text >
         find the right <br />
         <Badge
           bgGradient="linear(to-t, #3182ce, #805ad5)"
           bgClip="text"
-          fontSize="6xl"
+          fontSize={["3xl","4xl","5xl"]}
           textTransform="capitalize"
         >
           four-day
         </Badge>
         Week job
       </Text>
-      <HStack w={"30rem"} m="auto">
+      <HStack w={["23rem","27rem","30rem"]} m="auto">
         <Input
           placeholder="Type job title or keyword"
           size="lg"
@@ -77,15 +77,19 @@ const Content = () => {
         mt="25px"
         placeItems="center"
       >
-        <Button bgGradient="linear(to-t, #3182ce, #805ad5)">
+        <Button bgGradient="linear(to-t, #3182ce, #805ad5)"
+        
+        colorScheme='blue'>
           <Image src={EarthIcon} />
           Remote
         </Button>
-        <Button bgGradient="linear(to-t, #3182ce, #805ad5)">
+        <Button bgGradient="linear(to-t, #3182ce, #805ad5)"
+        colorScheme='blue'>
           <Image src={CodeIcon} />
           Tech
         </Button>
-        <Button bgGradient="linear(to-t, #3182ce, #805ad5)">
+        <Button bgGradient="linear(to-t, #3182ce, #805ad5)"
+        colorScheme='blue'>
           <Image src={MarketingIcon} />
           Marketing
         </Button>

@@ -59,7 +59,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image src={logo} width={[2, 5, 8]} />
+            <Image src={logo} width={[8, 9, 10]} />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -76,6 +76,7 @@ export default function Navbar() {
           <Button
             as={"a"}
             fontSize={"sm"}
+            display={{ base: "none", md: "inline-flex" }}
             fontWeight={400}
             variant={"link"}
             href={"#"}
@@ -84,6 +85,7 @@ export default function Navbar() {
           </Button>
           <Button
             as={"a"}
+            display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={400}
             variant={"link"}
@@ -94,7 +96,7 @@ export default function Navbar() {
             Sign Up
           </Button>
           <Button
-            display={{ base: "none", md: "inline-flex" }}
+            
             fontSize={"sm"}
             fontWeight={600}
             color={"white"}

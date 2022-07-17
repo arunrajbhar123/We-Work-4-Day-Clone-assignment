@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Box, Image, HStack, Text, Grid, Flex } from "@chakra-ui/react";
 const JobList = ({ border, id, title, icon, name, salary, leftIcon, type }) => {
   return (
@@ -10,9 +9,9 @@ const JobList = ({ border, id, title, icon, name, salary, leftIcon, type }) => {
       rounded="md"
       bg="white"
       border={border && "1px solid blue"}
-      // border="1px solid blue"
+  
       borderRadius="8px"
-      w="650px"
+      w={["350px","450px","650px"]}
       mt="1rem"
     >
       <Flex justifyContent="space-between" alignItems="start">
