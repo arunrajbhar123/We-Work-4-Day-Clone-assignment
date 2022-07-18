@@ -1,4 +1,6 @@
 # Responsive Clone
+### Live Preview Website 
+  * https://wework4day.netlify.app/
 # View as Picture
 ## Desktop View
 <img src="./src/website.png"/>
